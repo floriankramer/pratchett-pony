@@ -1,0 +1,6 @@
+[submodule "ponysay"]
+	path = ponysay
+	url = https://github.com/erkin/ponysay.git
+[submodule "cmrc"]
+	path = cmrc
+	url = https://github.com/vector-of-bool/cmrc.git
