@@ -2,6 +2,7 @@
 
 #include <cmrc/cmrc.hpp>
 #include <fstream>
+#include <vector>
 
 CMRC_DECLARE(pratchett_res);
 

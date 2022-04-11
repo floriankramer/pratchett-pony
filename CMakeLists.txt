@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(pratchett-pony)
 
-set(CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Setup the pony resources
