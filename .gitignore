@@ -1,3 +1,5 @@
-/build*
-pratchett
-CMakeLists.txt.user
+
+
+# Added by cargo
+
+/target
