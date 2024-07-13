@@ -19,15 +19,12 @@ Many thanks also to the people behind ponysay, and the people who committed the 
 To avoid licensing issues neither ponysay nor the pql are directly included in this repository, and neither of the fall under the license
 of this repository.  
 
-Run `git submodule --init` to download ponysay and the [cmrc](https://github.com/vector-of-bool/cmrc) (a resource compiler pratchett-pony uses
-to bundle the ponies and pratchett quotes into the executable).
+Run `git submodule --init` to download ponysay.
 
 Run the provided `download_pqf.sh` bash script to download the pqf from https://www.lspace.org/ftp/words/pqf/pqf. The script requires `bash` and `wget`.
 
-Now run cmake and build the executable
-- `mkdir build`
-- `cd build`
-- `cmake ..`
-- `cmake --build ..`
-The resulting `pratchett-pony` executable is standalone and only depends on your systems c++ standard library.
+Now use `cargo build -r` to build pratchett-pony.
+The resulting `pratchett-pony` executable (located at `target/release/pratchett-pony`) should only depend on your systems glibc.
+For a fully dependency-free executable (such as the ones in the release section) build the project under alpine linux and
+statically link against the musl c standard library. A docker setup for this is not yet included in the repo.
 
