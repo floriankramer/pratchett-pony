@@ -1,4 +1,7 @@
 # Pratchett Pony
+
+![image](https://github.com/user-attachments/assets/729d6610-b883-42ed-a833-a1097a68529b)
+
 pratchett-pony is a tool that combines the awesome features of [ponysay](https://github.com/erkin/ponysay/tree/master/ponies) and
 the [pql](https://www.lspace.org/books/pqf/) (pratchet quote file) into a single, relocatable, almost dependency free executable
 file.
